@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Not to Do in HTML</title>
+    </head>
+    <body>
+        <h1>What Not to Do in HTML</h1>
+
+        <h3>Using autoplay on audio/video tags (Only on Safari??)</h3>
+
+        <!-- Easiest way to have people click off your website -->
+        <audio autoplay loop>
+            <source src="Audio/ScriabinValseOp38.mp3" type="audio/mpeg">
+        </audio>
+
+        <!--<pre></pre> tag is definitely helpful for quick formatting which matches what is seen in the editor, however it can get out of hand if used incorrectly.-->
+        <pre>
+            E
+            x
+            c
+            e
+            s
+            s
+            i
+            v
+            e
+
+            W
+            h
+            i
+            t
+            e
+            s
+            p
+            a 
+            c 
+            e
+        </pre> <br> <br> <br> <br> <br> <br> <br> <br>
+
+        <!--Usually you don't need the text to be bold, italic, and underlined at the same time.-->
+        <b><i><u><span>Unnecessary formatting</span></u></i></b>
+
+        <!--Using the default h6 tag without modifying should be a criminal offense-->
+        <h6>Text that is too small to read</h6>
+
+        <!--52 classes? This is so unnecessary. On top of that there are so many classes that have the same name-->
+        <p class="how many classes are we going to put on this one element nobody knows but I will keep going until I run out of words to think of putting in this sentence nobody knows but there has been many webpages written like this and it is not normal for this to happen">Too many classes (52) for one element and repeat class names</p>
+    
+        <!--both of these tags are deprecated and should never be used.-->
+        <marquee><blink>Deprecated tags and awful text formatting</blink></marquee>
+        
+        <p>Terrible navigation</p>
+        <a href="tetris.html">Super Mario Bros. Full game fully functional</a> <br>
+        <a href="mario.html">Tetris fully functional game</a> <br>
+
+        <!-- _blank opens links in a new tab but since these files don't exist nothing will be displayed-->
+        <p>Broken Links/Links that don't work</p>
+        <a target="_blank" href="mailto:google@google.com">Minecraft</a> <br>
+        <a target="_blank" href="mariokart.html">Mario Kart</a> <br>
+        <a target="_blank" href="phineas.html">Phineas and Ferb</a> <br>
+        <a target="_blank" href="playoff.html">USC Playoff Chances</a> <br>
+        <a target="_blank" href="gangnamstyle">Gangnam Style</a> <br> <br>
+
+        <h3>Questionable interactivity</h3>
+        <label>Username: <input placeholder="Long placeholders you can't fully see"></label> <br>
+        <h4>Improper types for fields + Weird placeholders</h4>
+        <label>Email: <input placeholder="username@example.com" type="number"></label> <br>
+        <label>Password: <input placeholder="Password" type="password"></label> <br>
+        <label>Birthday: <input placeholder="" type="password"></label> <br>
+        <label>Location: <input placeholder="Password" type="date"></label>
+        <h3>Unnecessary inputs + incorrect types + too few options + unchangeable inputs</h3>
+        <label>Blood Type: <input placeholder="" type="checkbox"></label> <br>
+        <label>Car Model: <input placeholder="Password" disabled value="Nissan Sentra 2003"></label> <br>
+        <label>College you graduated from: <input placeholder="Password" type="file"></label> <br>
+        <label>Favorite Holiday: <input placeholder="Password" type="range"></label> <br>
+        <label>Favorite YouTube Channel: <input placeholder="Password" type="month"></label> <br>
+        <label>Favorite NFL Team: <input disabled value="Bengals" placeholder="Password"></label> <br>
+        <button onclick="alert(`Buttons that don't do anything useful.`)">Submit</button>
+
+        <h2>Random videos that don't relate to the website at all?????</h2>
+        <<iframe width="560" height="315" src="https://www.youtube.com/embed/U-nYdR9lMqM?si=OzC3-FsdUiAklD3v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6WaC6o_8aO0?si=EDFrPXjtJWAkTiv6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </body>
+</html>
